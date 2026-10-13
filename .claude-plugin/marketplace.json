@@ -1,0 +1,21 @@
+{
+  "name": "ai-skills-ladder",
+  "owner": {
+    "name": "Anupama Garani"
+  },
+  "metadata": {
+    "description": "Claude skills for every level of the AI skills ladder",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "product-builder",
+      "description": "Level 3 skills for people deciding what to build with AI. prd-to-evals turns any AI product spec into a ranked, balanced test set and a runner that scores it.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/prd-to-evals"
+      ]
+    }
+  ]
+}
